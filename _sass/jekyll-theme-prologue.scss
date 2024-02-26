@@ -81,7 +81,7 @@
 		color: #888;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -89,7 +89,9 @@
 
 	/* DEMO-SPECIFIC STYLES */
 	.typewriter h1 {
-	color: #fff;
+	font-weight: 300;
+	color: #666;
+	line-height: 1.5em;
 	font-family: 'IBM Plex Mono', monospace;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid orange; /* The typwriter cursor */
